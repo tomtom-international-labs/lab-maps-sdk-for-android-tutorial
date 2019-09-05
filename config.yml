@@ -1,0 +1,17 @@
+title: Lab Maps SDK for Android tutorial
+tagline: A brand new course on Learning Lab
+description: Create Android app using TomTom Maps SDK in less than 60 minutes
+template:
+  repo: lab-maps-sdk-for-android-tutorial-template
+  name: lab-maps-sdk-for-android-tutorial
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
